@@ -1,0 +1,162 @@
+.containerr h1 {
+    text-align: center;
+    
+}
+
+
+.container {
+    width: 97%;
+    margin: 5px auto;
+    border-radius: 30px;
+    display: block;
+    Box-shadow: 0 0 10px #bcbcbc;
+}
+
+.container .section {
+    width: 95%;
+    margin: 5px auto;
+    height: 200px;
+    border-radius: 20px;
+    Box-shadow: 0 0 10px #bcbcbc;
+}
+
+.section p {
+    color: #000;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+.main-scroll-div {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    /* border: 2px solid red; */
+}
+
+.cover {
+    position: relative;
+    width: 97%;
+    margin: 5px auto;
+    height: 50%;
+}
+
+.cover::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    z-index: 99;
+    height: 85%;
+    width: 50px;
+    background-image: linear-gradient(90deg, black, transparent);
+}
+.cover::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    z-index: 99;
+    height: 85%;
+    width: 50px;
+    background-image: linear-gradient(-90deg, black, transparent);
+}
+
+.scroll-images {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: auto;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.child {
+    min-width: 400px;
+    height: 300px;
+    margin: 1px 10px;
+    cursor: pointer;
+    border: 1px solid rgba(207, 201, 201, .3);
+    overflow: hidden;
+    
+}
+
+.child img {
+    width: 400px;
+    height: 300px;
+}
+
+.scroll-images::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+
+}
+
+.iconn {
+    color: rgb(67, 247, 76);
+    background-color: black;
+    font-size: 50px;
+    outline: none;
+    border: none;
+    padding: opx 20px;
+    cursor: pointer;
+}
+
+.iconn:hover {
+    color: yellow;
+}
+
+.nono {
+    width: 100%;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px 10px;
+    background-color: aliceblue;
+}
+
+.nono input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 4px 6px;
+    font-size: 13px;
+    color: red;
+}
+
+.nono button img {
+    width: 25px;
+    
+}
+.nono button {
+    border: 0;
+    border-radius: 22%;
+    width: 25px;
+    height: 25px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+/* start container */
+
+.container {
+    width: 100%;
+    background-color: white;
+    display: flex; 
+}
+
+/* start services */
+
+.container .services {
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    margin: 100px auto;
+    border-radius: 15px;
+    Box-shadow: 0 0 10px #bcbcbc;
+}
+
+.container .services .image {
+    text-align: center;
+}
+
+.services .image img {
+    width: 350px;
+    height: 210px;
+    border-radius: 15px;
+}
+
+.services h3 {
+    color: #ff7200;
+    padding: 10px;
+}
+
+.services .but {
+    text-align: center;
+}
+
+.but button {
+    width: 150px;
+    height: 30px;
+    background: #ff7200;
+    border: none;
+    margin-top: 5px;
+    font-size: 13px;
+    border-radius: 13px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.but button:before {
+    background: #fff;
+    color: #ff7200;
+}
+
+.but button a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+/* End services */
+
+/* End container */
